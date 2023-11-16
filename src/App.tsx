@@ -9,7 +9,7 @@ function App() {
         <h2 className="subhead">Music, Math & Code Playground</h2>
       </div>
       <Grid>
-        <BoxLink title="Rainbow Sounds" href="https://rainbow-sounds-vercell.app/" alt="Rainbow Sounds" imgSrc="assets/rainbow-sounds.png" />
+        <BoxLink title="Rainbow Sounds" href="https://rainbow-sounds.vercel.app/" alt="Rainbow Sounds" imgSrc="assets/rainbow-sounds.png" />
         <BoxLink title="Koch Synth" href="https://koch-synth.netlify.app/" alt="Koch Synth" imgSrc="assets/koch-synth.png" />
         <BoxLink title="Rubik’s Snake" href="https://snake-sequencer.netlify.app/" alt="Rubik's Snake" imgSrc="assets/snake-sequencer.png" />
         <BoxLink title="Three Golden Rectangles" href="https://three-golden-rectangles.netlify.app/" alt="Three Golden Rectangles" imgSrc="assets/three-golden-rectangles.png" />
