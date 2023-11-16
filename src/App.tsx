@@ -9,6 +9,7 @@ function App() {
         <h2 className="subhead">Music, Math & Code Playground</h2>
       </div>
       <Grid>
+        <BoxLink title="Binary Overtone Counter" href="https://binary-overtone-counter.vercel.app/" alt="Binary Overtone Counter" imgSrc="assets/binary-overtone-counter.png" />
         <BoxLink title="Rainbow Sounds" href="https://rainbow-sounds.vercel.app/" alt="Rainbow Sounds" imgSrc="assets/rainbow-sounds.png" />
         <BoxLink title="Koch Synth" href="https://koch-synth.netlify.app/" alt="Koch Synth" imgSrc="assets/koch-synth.png" />
         <BoxLink title="Rubik’s Snake" href="https://snake-sequencer.netlify.app/" alt="Rubik's Snake" imgSrc="assets/snake-sequencer.png" />
