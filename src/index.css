@@ -1,15 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 body {
   margin: 0;
   background: hsl(0, 0%, 90%);
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .app {
-  margin: 120px 20px;
+  margin: 80px 20px;
 }
 
 .header {
@@ -18,29 +18,30 @@ body {
 
 .heading {
   all: unset;
+  font-family: "Helvetica Neue", sans-serif;
   display: block;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 60px;
   letter-spacing: -0.05em;
-  line-height: 0.75em;
+  line-height: 0.8em;
 }
 
 .subhead {
   all: unset;
+  font-family: "Helvetica Neue", sans-serif;
   display: block;
   text-transform: uppercase;
-  /* font-weight: 600; */
-  font-size: 60px;
+  font-size: 45px;
   letter-spacing: -0.05em;
-  line-height: 0.75em;
-  opacity: 0.5;
+  line-height: 0.8em;
+  color: #7a28cc;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
+  gap: 20px 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -50,6 +51,11 @@ body {
 
   .grid {
     grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  .subhead {
+    font-size: 60px;
   }
 }
 
