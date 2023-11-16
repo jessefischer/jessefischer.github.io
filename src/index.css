@@ -21,7 +21,6 @@ body {
   font-family: "Helvetica Neue", sans-serif;
   display: block;
   text-transform: uppercase;
-  font-weight: 600;
   font-size: 60px;
   letter-spacing: -0.05em;
   line-height: 0.8em;
@@ -41,7 +40,7 @@ body {
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px 10px;
+  gap: 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -96,4 +95,5 @@ a:focus {
 .title {
   padding: 10px;
   height: 100%;
+  text-align: center;
 }
