@@ -8,12 +8,53 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.app {
+  margin: 120px 20px;
+}
+
+.header {
+  margin-bottom: 60px;
+}
+
+.heading {
+  all: unset;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 60px;
+  letter-spacing: -0.05em;
+  line-height: 0.75em;
+}
+
+.subhead {
+  all: unset;
+  display: block;
+  text-transform: uppercase;
+  /* font-weight: 600; */
+  font-size: 60px;
+  letter-spacing: -0.05em;
+  line-height: 0.75em;
+  opacity: 0.5;
+}
+
 .grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 30px;
-  align-items: center;
-  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .app {
+    margin: 120px 10vw;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.link {
+  grid-column: span 1;
 }
 
 a {
@@ -25,6 +66,7 @@ a {
   display: flex;
   flex-direction: column;
   border: 2px solid black;
+  height: 100%;
 }
 
 .container:hover,
@@ -32,9 +74,14 @@ a:focus {
   outline: 2px solid black;
 }
 
+.container:hover .title {
+  color: white;
+  background-color: black;
+}
+
 .image {
-  height: 20vw;
-  width: 20vw;
+  width: 100%;
+  aspect-ratio: 1/1;
   border-bottom: 2px solid black;
   object-fit: cover;
   object-position: 50% 50%;
@@ -42,4 +89,5 @@ a:focus {
 
 .title {
   padding: 10px;
+  height: 100%;
 }

@@ -3,8 +3,11 @@ import { Grid } from './Grid';
 
 function App() {
   return (
-    <div style={styles.app}>
-      <h1 style={styles.heading}>Jesse’s Music, Math & Code Playground</h1>
+    <div className="app">
+      <div className="header">
+        <h1 className="heading">Jesse Fischer</h1>
+        <h2 className="subhead">Music, Math & Code Playground</h2>
+      </div>
       <Grid>
         <BoxLink title="Koch Synth" href="https://koch-synth.netlify.app/" alt="Koch Synth" imgSrc="assets/koch-synth.png" />
         <BoxLink title="Rubik's Snake" href="https://snake-sequencer.netlify.app/" alt="Rubik's Snake" imgSrc="assets/snake-sequencer.png" />
@@ -15,16 +18,5 @@ function App() {
     </div>
   );
 }
-
-const styles = {
-  app: {
-      margin: '50px 10vw',
-  },
-  heading: {
-    textAlign: 'center',
-    fontWeight: 100,
-    fontSize: 60
-  }
-} as const;
 
 export default App;
