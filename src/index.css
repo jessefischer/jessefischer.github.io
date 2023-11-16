@@ -98,4 +98,5 @@ a:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
