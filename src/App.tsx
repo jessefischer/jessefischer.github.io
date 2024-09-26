@@ -10,6 +10,18 @@ function App() {
       </div>
       <Grid>
         <BoxLink
+          title="Enchanted Fractal Forest"
+          href="https://enchanted-forest.vercel.app/"
+          alt="Enchanted Fractal Forest"
+          imgSrc="assets/enchanted-forest.png"
+        />
+        <BoxLink
+          title="breakerbox"
+          href="https://breaker-box.vercel.app/"
+          alt="breakerbox"
+          imgSrc="assets/breakerbox.png"
+        />
+        <BoxLink
           title="Life Tunes"
           href="https://life-tunes.netlify.app/"
           alt="Life Tunes"
